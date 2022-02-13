@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500&display=swap" rel="stylesheet');
+
+:root {
+    --font: 'Fira Sans', sans-serif;
+    
+    --background: #282a36;
+    --selection:#44475a00;
+    --comment:#ffffff;
+    --purple:#bd93f9;
+    --white:#f8f8f2;
+    --pink:#ffffff;
+}
+
+
+body{
+    background-image: url("img/kk.gif");
+    background-size: 100%;
+    /* background-position: 100%; */
+    color: var(--white);
+}
+
+footer{
+    text-align: center;
+
+    color:var(--comment);
+
+    font-family: var(--font);
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+
+#userPhoto{
+    width: 96px;
+    height: 96px;
+
+    display: block;
+
+    margin: 35px auto 20px;
+
+    border-radius: 50%;
+    border: solid var(--purple) 2px;
+    
+}
+
+
+#userName{
+    width: 100%;
+
+    color: var(--pink);
+
+    font-family: var(--font);
+    font-size: 1rem;
+    font-weight: 400;
+
+    text-align: center;
+    text-decoration: none;
+
+    line-height: 1.25;
+    display: block;
+}
+
+#links{
+    max-width: 675px;
+    width: auto;
+
+    display: block;
+
+    margin: 27px auto;
+}
+.link{
+    display: block;
+    margin-bottom: 20px;
+    padding: 17px;
+
+    background-color: #282a3636;
+    color:var(--comment);
+    background: rgba(red, green, blue, 1);
+    backdrop-filter: blur(25px);
+    font-family: var(--font);
+    font-size: 1rem;
+    font-weight: 500;
+
+    border-radius: 25px;
+    border: solid var(--purple) 1px;
+
+    text-align: center;
+    text-decoration: none;
+    
+    transition: all .25s cubic-bezier(.08,.59,.29,.99);
+    
+}
+
+.link:hover{
+    
+    
+    background-color: #282a3600;
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.39);
+    
+    
+}
