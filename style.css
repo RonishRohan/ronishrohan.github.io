@@ -32,7 +32,7 @@ html{
     background: linear-gradient(#282a36 0%, var(--purple) 50%, #282a36 100%);
     transition: background 1s;
 }
-section{
+#description{
     
    position: relative;
    display: grid;
@@ -54,7 +54,7 @@ section{
     
     
 }
-section:hover{
+#description:hover{
     
     margin-top: 24%;
     box-shadow: 0px 50px 500px rgba(128, 0, 128, 0.411);
